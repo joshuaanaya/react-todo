@@ -16,8 +16,10 @@ function App() {
   useEffect(() => {
     getLocalTodos();
   }, [])
+
   //useEffect to update Completed filtere
   useEffect(() => {
+    
     //Filtere Completed, Uncompleted, and All
   const filterHandler = () => {
     switch(status){
